@@ -1,0 +1,14 @@
+ Attributes and Properties are not the same..
+ Attributes - HTML
+ Properties - DOM(Document Object Model).
+Attributes value can't change once they are initialize..
+
+let myId="newId";
+<input [id]="myId" value="John">
+
+where we are binding ID property of this input element...
+
+<input type="text" disabled >
+
+let status = flase;
+<input type = "text" [disabled]="status">

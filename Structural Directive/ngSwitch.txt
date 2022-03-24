@@ -1,0 +1,9 @@
+<div [ngSwitch]="color">
+<div *ngSwitchCase="'red'" >your Favourite color is Red</div>
+<div *ngSwitchCase=" 'blue' ">Your Favourite color is blue</div>
+<div *ngSwitchCase="'green'">Your Favourite color is Green</div> 
+<div *ngSwitchDefault>Your Favourite color is not Matching</div>
+</div>
+
+
+let color = "blue" 

@@ -1,0 +1,24 @@
+The String InterPolation is used for changing the "Static variable" into "Dynamic Variable"..
+for example: 
+	hello John  (where john is static Variable)
+
+Static Variable : The value can't be change (or) fixed then it is called as Static Variable..
+Dynamic Variable : The value which can be changed it is called Dynamic Variable..
+		We have to create variable and assign the value to it.
+
+Converting Static Variable to Dynamic Variable
+------------------------------------------------------------
+For Example:
+	//Static Variable
+	<h2>Hello John</h2>
+	
+	//Dynamic Variable
+	name:string = " John";
+	<h2>Hello {{name}}</h2>
+
+ {{}}=>It is a one type of console.
+
+DisAdvantage Of InterPolation
+----------------------------------------
+ => This method is only work on String
+ => If we use boolean value then the value is not changes because,interpolation method is only work on Stings.....  
